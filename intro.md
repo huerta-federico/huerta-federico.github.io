@@ -6,6 +6,7 @@ The additional pages from this book are placeholders with random text.
 
 UTPL Abril 2023 - Agosto 2023.
 
+Apasionado y aspirante estudiante de TI que actualmente cursa educación formal en la universidad. Versátil  y autodidacta en entornos informáticos. Ingenioso e investigador a la hora de resolver problemas o adquirir información.
 
 ## Table of Contents
 ```{tableofcontents}
