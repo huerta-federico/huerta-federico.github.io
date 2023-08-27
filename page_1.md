@@ -3,8 +3,10 @@
 ## Datos personales
 Fecha de nacimiento
 : 23 Marzo 1996
+
 Lugar de nacimiento
 : Guayaquil, Ecuador
+
 Nacionalidad
 : Ecuatoriano
 
@@ -23,17 +25,8 @@ Teléfono Celular
 Correo electrónico
 : huerta.federico@gmail.com
 
-
-```{note}
-Lorem note
-```
-
 ## Habilidades
-Software & Hardware
-
-Ofimática general
-: Microsoft Office, LibreOffice, etc.
-
+### Software & Hardware
 
 - Ofimática general: Microsoft Office, LibreOffice, etc.
 - Gestión de datos y aplicación de estadísticas.
@@ -66,3 +59,33 @@ Especialización Empresariales - Rama: Diseño digital
 Estudiante de honor - 2da escolta del pabellón nacional
 2006 - 2014
 ````
+
+## Certificaciones
+- Python Essentials 1 - Mayo 2023 - Cisco Networking Academy & OpenEDG Python Institute.
+- Goethe-Zertifikat B1 - 2015 - Goethe Institut
+- Nivelación pruebas aptitudinales - 2014 - 56 horas - Academia de Ciencias Exactas APOL
+- Curso de alemán B1 - 2014 - 170 horas - Centro Cultural Ecuatoriano-alemán
+- Curso de alemán A2 - 2014 - 170  horas - Centro Cultural Ecuatoriano-alemán
+- Curso de alemán A1 - 2013 - 196 horas - Centro Cultural Ecuatoriano-alemán
+- Diplôme d’études en langue française DELF A1 - 2012 - Commission nationale du Delf et du Dalf
+- OpenMat Olimpiadas del pensamiento matemático - 2012 - Universidad Santa María
+- Acreditación de Competencias Laborales en Microsoft Excel 2007 - 2011 - Grupo Educare (México)
+
+## Idiomas
+Español
+: Natal
+
+Inglés
+: Avanzado, hablado y escrito
+
+Alemán
+: Intermedio, hablado y escrito, con certificación B1
+
+Francés
+: Básico, hablado y escrito, con certificación A1
+
+
+## Referencias
+Ing. Manuel Gómez Robles
+Subgerente general y gerente de mantenimiento en Ecuacolor.
+E-mail: manuangelgomez@hotmail.com
