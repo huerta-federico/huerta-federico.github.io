@@ -1,4 +1,4 @@
-# Español
+# CV en español
 
 ## Datos personales
 Fecha de nacimiento
@@ -87,5 +87,7 @@ Francés
 
 ## Referencias
 Ing. Manuel Gómez Robles
+
 Subgerente general y gerente de mantenimiento en Ecuacolor.
+
 E-mail: manuangelgomez@hotmail.com

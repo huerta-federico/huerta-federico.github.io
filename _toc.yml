@@ -4,6 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: page_1
-- file: page_2
-- file: page_3
+- file: cv_spa
+- file: cv_eng
+- file: cv_deu
+- file: cv_certs
