@@ -1,0 +1,8 @@
+Saludos Ing. René Elizalde,
+
+En este documento quisiera añadir algunas explicaciones breves acerca del trabajo:
+- Me basé en la tarea anterior de PHP acerca de Monumentos y Parques, haciendo cambios para la entidad de empresa automotriz.
+- En el archivo SQL está todo lo necesario para crear la BD, que tiene el nombre acdb2_02bim, e ingresar los datos.
+
+Muchas gracias,
+Atte. Federico Huerta
