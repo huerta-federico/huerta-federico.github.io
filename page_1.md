@@ -1,14 +1,29 @@
 # Español
 
 ## Datos personales
-Fecha de nacimiento: 23 Marzo 1996
-Lugar de nacimiento: Guayaquil, Ecuador
-Nacionalidad: Ecuatoriano
-Cédula: 0923411383
-Dirección: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
-Teléfono fijo: +593 04545227
-Teléfono Celular: +593 991809274
-Correo electrónico: huerta.federico@gmail.com
+Fecha de nacimiento
+: 23 Marzo 1996
+
+Lugar de nacimiento
+: Guayaquil, Ecuador
+
+Nacionalidad
+: Ecuatoriano
+
+Cédula
+: 0923411383
+
+Dirección
+: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
+
+Teléfono fijo
+: +593 04545227
+
+Teléfono Celular
+: +593 991809274
+
+Correo electrónico
+: huerta.federico@gmail.com
 
 
 ```{note}
@@ -20,6 +35,7 @@ Software & Hardware
 
 Ofimática general
 : Microsoft Office, LibreOffice, etc.
+
 
 - Ofimática general: Microsoft Office, LibreOffice, etc.
 - Gestión de datos y aplicación de estadísticas.
