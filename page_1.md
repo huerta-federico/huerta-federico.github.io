@@ -17,8 +17,10 @@ Lorem note
 
 ## Habilidades
 Software & Hardware
+
 Ofimática general
 : Microsoft Office, LibreOffice, etc.
+
 - Ofimática general: Microsoft Office, LibreOffice, etc.
 - Gestión de datos y aplicación de estadísticas.
 - Modelado y gestión de bases de datos SQL, noSQL, orientadas a objetos.
@@ -46,6 +48,7 @@ Ingeniería en Ciencias Computacionales - Sistemas Informáticos
 Bachiller
 ^^^
 Especialización Empresariales - Rama: Diseño digital
+
 Estudiante de honor - 2da escolta del pabellón nacional
 2006 - 2014
 ````
