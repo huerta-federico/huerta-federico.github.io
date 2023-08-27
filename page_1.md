@@ -15,10 +15,10 @@ Correo electrónico: huerta.federico@gmail.com
 Lorem note
 ```
 
-Nunc sed velit dignissim sodales. Senectus et netus et malesuada fames ac turpis egestas sed. Est ullamcorper eget nulla facilisi etiam. Aenean sed adipiscing diam donec adipiscing. Quis eleifend quam adipiscing vitae proin sagittis nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eleifend quam adipiscing vitae proin. Bibendum neque egestas congue quisque egestas diam. Nisi scelerisque eu ultrices vitae auctor. Odio ut sem nulla pharetra diam sit amet nisl suscipit.
-
 ## Habilidades
 Software & Hardware
+Ofimática general
+: Microsoft Office, LibreOffice, etc.
 - Ofimática general: Microsoft Office, LibreOffice, etc.
 - Gestión de datos y aplicación de estadísticas.
 - Modelado y gestión de bases de datos SQL, noSQL, orientadas a objetos.
@@ -30,19 +30,22 @@ Software & Hardware
 
 
 ## Educación
-```{Universidad Técnica Particular de Loja - UTPL / Cursando 7mo semestre}
-2021 - presente
-```
-Universidad Técnica Particular de Loja - UTPL / Cursando 7mo semestre
-2021 - presente
+````{card} Universidad Técnica Particular de Loja - UTPL
 Ingeniería en Tecnologías de la Información. Modalidad abierta y a distancia.
-Escuela Superior Politécnica del Litoral ESPOL
-2014 - 2015
+^^^
+2021 - presente (cursando 7mo semestre)
+````
+
+````{card} Escuela Superior Politécnica del Litoral - ESPOL
 Ingeniería en Ciencias Computacionales - Sistemas Informáticos
-Unidad Educativa Santiago Mayor / Bachiller
-2006 - 2014
+^^^
+2014 - 2015
+````
+
+````{card} Unidad Educativa Santiago Mayor
+Bachiller
+^^^
 Especialización Empresariales - Rama: Diseño digital
 Estudiante de honor - 2da escolta del pabellón nacional
-
-
-UTPL Abril 2023 - Agosto 2023.
+2006 - 2014
+````
