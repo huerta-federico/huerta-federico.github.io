@@ -3,10 +3,8 @@
 ## Datos personales
 Fecha de nacimiento
 : 23 Marzo 1996
-
 Lugar de nacimiento
 : Guayaquil, Ecuador
-
 Nacionalidad
 : Ecuatoriano
 
