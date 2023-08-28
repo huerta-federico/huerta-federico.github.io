@@ -1,20 +1,83 @@
-# Deutsch
+# CV auf Deutsch
 
-## Lorem subtitle 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat pretium nibh ipsum consequat nisl vel. Facilisis sed odio morbi quis commodo. Porta nibh venenatis cras sed felis. Ullamcorper eget nulla facilisi etiam dignissim diam. Iaculis urna id volutpat lacus laoreet non. Id volutpat lacus laoreet non curabitur gravida arcu ac. Ac placerat vestibulum lectus mauris ultrices eros in. Dolor morbi non arcu risus quis varius. In mollis nunc sed id semper risus in hendrerit. Id aliquet lectus proin nibh. Nulla pellentesque dignissim enim sit amet. Risus in hendrerit gravida rutrum quisque non tellus orci. Non curabitur gravida arcu ac tortor. Ut sem nulla pharetra diam sit. Facilisi nullam vehicula ipsum a. Purus sit amet luctus venenatis lectus. Venenatis cras sed felis eget velit aliquet sagittis. Laoreet non curabitur gravida arcu ac tortor dignissim.
+## Persönliche Daten
+Geburtsdatum
+: 23. März. 1996
 
-```{note}
-Lorem note
-```
+Geburtsort
+: Guayaquil, Ecuador
 
-Nunc sed velit dignissim sodales. Senectus et netus et malesuada fames ac turpis egestas sed. Est ullamcorper eget nulla facilisi etiam. Aenean sed adipiscing diam donec adipiscing. Quis eleifend quam adipiscing vitae proin sagittis nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Eleifend quam adipiscing vitae proin. Bibendum neque egestas congue quisque egestas diam. Nisi scelerisque eu ultrices vitae auctor. Odio ut sem nulla pharetra diam sit amet nisl suscipit.
+Staatsangehörigkeit
+: Ecuadorianisch
 
-## Lorem subtitle 2
-Nunc consequat interdum varius sit amet mattis. Quis vel eros donec ac odio tempor orci. Duis convallis convallis tellus id interdum velit laoreet id. Tempor orci dapibus ultrices in. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Turpis egestas sed tempus urna et pharetra pharetra. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Etiam sit amet nisl purus in mollis. At tellus at urna condimentum mattis pellentesque id. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Nunc sed augue lacus viverra vitae congue eu. Mauris in aliquam sem fringilla ut. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Risus nec feugiat in fermentum posuere. Malesuada pellentesque elit eget gravida cum sociis natoque. Aliquam id diam maecenas ultricies mi eget. Purus sit amet volutpat consequat mauris nunc congue nisi. Dictum non consectetur a erat nam at. Faucibus in ornare quam viverra orci sagittis.
+Adresse
+: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
 
-Aliquet risus feugiat in ante metus dictum at tempor. Elit ut aliquam purus sit amet luctus. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Feugiat nibh sed pulvinar proin. Duis convallis convallis tellus id interdum velit laoreet. Non diam phasellus vestibulum lorem sed risus ultricies tristique. Neque sodales ut etiam sit. Integer feugiat scelerisque varius morbi enim nunc. Gravida cum sociis natoque penatibus et. Id diam maecenas ultricies mi eget. Nisl vel pretium lectus quam id. Vitae aliquet nec ullamcorper sit amet risus nullam. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Vel facilisis volutpat est velit egestas dui. Parturient montes nascetur ridiculus mus mauris. Elementum nibh tellus molestie nunc non blandit massa enim nec. Tortor aliquam nulla facilisi cras.
+Mobil
+: +593 991809274
 
-## Lorem subtitle 3
-Morbi tristique senectus et netus. Sed arcu non odio euismod lacinia at. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Bibendum est ultricies integer quis auctor. Mattis enim ut tellus elementum sagittis vitae et. Condimentum lacinia quis vel eros donec ac odio. Arcu felis bibendum ut tristique et egestas quis ipsum. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Justo eget magna fermentum iaculis eu. Risus nec feugiat in fermentum posuere urna. Id semper risus in hendrerit gravida rutrum quisque non tellus. Blandit cursus risus at ultrices mi tempus.
+E-Mail
+: huerta.federico@gmail.com
 
-UTPL Abril 2023 - Agosto 2023.
+## Fähigkeiten
+### Software & Hardware
+- Office Suiten und allgemeine Computing: Microsoft Office, LibreOffice etc.
+- Datenmanagement und Einsatz statistischer Techniken und Methoden.
+- Datenbankmodellierung und -verwaltung, einschließlich, aber nicht beschränkt auf SQL, NoSQL, objektorientierte Datenbank.
+- Webdesign und -entwicklung mit HTML, CSS, Javascript, PHP, Python, ORMs und Frameworks wie Django, Jupyter Book und SQLAlchemy.
+- Strukturierte und objektorientierte Programmierung in C, Java und Python.
+- Multimedia-Tools wie Adobe Illustrator, Inkscape, Video-Editoren etc.
+- Netzwerkmanagement, Router, Access Points, lokale Verkabelung etc.
+- Vertraut mit Linux- und Windows-Systemen.
+
+## Ausbildung
+````{card} Universidad Técnica Particular de Loja - UTPL
+Ingenieurwissenschaft und Information-Technology Studium
+^^^
+seit 2021 (7 Semester Studium)
+````
+
+````{card} Escuela Superior Politécnica del Litoral - ESPOL
+Ingenieurwissenschaften in Computerwissenschaften - Informationssysteme
+^^^
+2014 - 2015
+````
+
+````{card} Unidad Educativa Santiago Mayor
+Oberschule
+^^^
+Entrepreneurship Spezialisierung - Gebiet: Digitales Design
+
+Besondere Erfolge: Ehren Student - 2. Nationalflagge Begleitung
+
+2006 - 2014
+````
+
+## Zertifikate
+- Python Essentials 1 - Mai 2023 - Cisco Networking Academy & OpenEDG Python Institute.
+- Goethe-Zertifikat B1 - 2015 - Goethe Institut
+- Eignungsprüfungen - 2014 - 56 Stunden - Academia de Ciencias Exactas APOL
+- Deutschkurs B1 - 2014 - 170 Stunden - Centro Cultural Ecuatoriano-alemán
+- Deutschkurs A2 - 2014 - 170 Stunden - Centro Cultural Ecuatoriano-alemán
+- Deutschkurs A1 - 2013 - 196 Stunden - Centro Cultural Ecuatoriano-alemán
+- Diplôme d'études en langue française DELF A1 - 2012 - Commission nationale du Delf et du Dalf
+- OpenMat Mathematik-Gedanken Olympiade  - 2012 - Universidad Santa María
+- Akkreditierung von Arbeitskompetenzen in Microsoft Excel 2007 - 2011 - Grupo Educare (Mexiko)
+
+## Sprachen
+Spanisch
+: Muttersprache
+
+Englisch
+: fortgeschrittene, mündliche und schriftliche
+
+Deutsch
+: Mittelstufe, mündliche und schriftliche, mit B1 Zertifizierung
+
+Französisch
+: Grundkenntnisse, mündliche und schriftliche, mit A1 Zertifizierung
+
+## Empfehlungen
+Ing. Manuel Gómez Robles
+
+E-mail: manuangelgomez@hotmail.com

@@ -25,9 +25,11 @@ Teléfono Celular
 Correo electrónico
 : huerta.federico@gmail.com
 
+## Resumen personal
+Apasionado y aspirante estudiante de TI que actualmente cursa educación formal en la universidad. Versátil  y autodidacta en entornos informáticos. Ingenioso y eficiente a la hora de resolver problemas o realizar investigaciones. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades.
+
 ## Habilidades
 ### Software & Hardware
-
 - Ofimática general: Microsoft Office, LibreOffice, etc.
 - Gestión de datos y aplicación de estadísticas.
 - Modelado y gestión de bases de datos SQL, noSQL, orientadas a objetos.
@@ -36,7 +38,6 @@ Correo electrónico
 - Edición básica multimedia mediante Adobe Illustrator, Inkscape, editores de video, etc.
 - Gestión de redes, routers, puntos de acceso, cableado de redes locales, etc.
 - Familiarizado con sistemas Linux y Windows.
-
 
 ## Educación
 ````{card} Universidad Técnica Particular de Loja - UTPL
@@ -57,6 +58,7 @@ Bachiller
 Especialización Empresariales - Rama: Diseño digital
 
 Estudiante de honor - 2da escolta del pabellón nacional
+
 2006 - 2014
 ````
 
@@ -83,7 +85,6 @@ Alemán
 
 Francés
 : Básico, hablado y escrito, con certificación A1
-
 
 ## Referencias
 Ing. Manuel Gómez Robles

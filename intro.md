@@ -1,12 +1,18 @@
-# Welcome to my Jupyter book
+# ¡Bievenido a mi portafolio!
 
-Hi, my name is Federico Huerta and this is my Jupyter book hosted publicly thanks to Github Pages. This website was made as an assignment for the subject of "Development based on web platforms" in the "Universidad Técnica Particular de Loja".
+Hola, mi nombre es Federico Huerta y este es mi portafolio en línea hospedado a través del programa Github Pages y basado en el framework Jupyter Book.
 
-The additional pages from this book are placeholders with random text.
+Soy un estudiante de ingeniería en tecnologías de la información en la Universidad Técnica Particular de Loja, y además he adquirido muchas habilidades a través de auto-aprendizaje.
 
-UTPL Abril 2023 - Agosto 2023.
+Finalmente, domino el inglés y tengo conocimiento intermedio de alemán, por esto he incluido mis currículos en dichos idiomas.
 
-Apasionado y aspirante estudiante de TI que actualmente cursa educación formal en la universidad. Versátil  y autodidacta en entornos informáticos. Ingenioso e investigador a la hora de resolver problemas o adquirir información.
+```{figure} images/foto_perfil.png
+---
+height: 150px
+name: foto_perfil
+---
+Foto de perfil
+```
 
 ## Table of Contents
 ```{tableofcontents}
