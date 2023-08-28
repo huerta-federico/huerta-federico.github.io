@@ -1,11 +1,7 @@
 # CV auf Deutsch
 
 ```{note}
-Here is {doc}`pdf/CV_Deutsch.pdf`
-
-<a href = "pdf/CV_Deutsch.pdf"> ref. </a>
-
-[Lebenslauf als PDF herunterladen] (pdf/CV_Deutsch.pdf)
+PDF download :download: `pdf/CV_Deutsch.pdf`
 ```
 
 ## Persönliche Daten
