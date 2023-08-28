@@ -1,5 +1,9 @@
 # CV auf Deutsch
 
+```{note}
+[Lebenslauf als PDF herunterladen] (pdf/CV_Deutsch.pdf)
+```
+
 ## Persönliche Daten
 Geburtsdatum
 : 23. März. 1996
