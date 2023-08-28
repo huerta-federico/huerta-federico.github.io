@@ -4,11 +4,7 @@
 PDF herunterladen {download}`klicken Sie hier <pdf/CV_Deutsch.pdf>`
 ```
 
-{download}`test <pdf/CV_Deutsch.pdf>`
 
-{download}`/pdf/CV_Deutsch.pdf`
-
-{download}`test </pdf/CV_Deutsch.pdf>`
 
 ## Persönliche Daten
 Geburtsdatum
