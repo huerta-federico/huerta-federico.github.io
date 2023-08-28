@@ -6,7 +6,7 @@ Soy un estudiante de ingeniería en tecnologías de la información en la Univer
 
 Finalmente, domino el inglés y tengo conocimiento intermedio de alemán, por esto he incluido mis currículos en dichos idiomas.
 
-```{figure} images/foto_perfil.png
+```{figure} images/foto_perfil.jpg
 ---
 height: 150px
 name: foto_perfil
