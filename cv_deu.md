@@ -1,7 +1,8 @@
 # CV auf Deutsch
 
 ```{note}
-[Lebenslauf als PDF herunterladen] (pdf/CV_Deutsch.pdf)
+Here is {doc}`pdf/CV_Deutsch.pdf`
+Lebenslauf als {PDF} herunterladen] (pdf/CV_Deutsch.pdf)
 ```
 
 ## Persönliche Daten
