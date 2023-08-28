@@ -1,7 +1,7 @@
 # CV en español
 
 ```{note}
-Descargar PDF {download}`clic aquí <pdf/CV_Spanish.pdf>`
+Descargar PDF {download}`clic aquí <pdf/CV_Español.pdf>`
 ```
 
 ## Datos personales
