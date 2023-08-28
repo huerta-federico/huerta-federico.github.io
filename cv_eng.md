@@ -1,7 +1,7 @@
 # CV in english
 
 ```{note}
-PDF download {download}`click here <pdf/CV_English.pdf>`
+PDF download {download}`click here </pdf/CV_English.pdf>`
 ```
 
 ## Personal information
