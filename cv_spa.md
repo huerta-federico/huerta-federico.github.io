@@ -1,5 +1,9 @@
 # CV en español
 
+```{note}
+Descargar PDF {download}`clic aquí <pdf/CV_Spanish.pdf>`
+```
+
 ## Datos personales
 Fecha de nacimiento
 : 23 Marzo 1996
