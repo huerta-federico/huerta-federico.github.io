@@ -1,7 +1,7 @@
 # CV en español
 
 ```{note}
-Descargar PDF {download}`clic aquí </pdf/CV_Español.pdf>`
+Descargar PDF {download}`clic aquí </pdf/CV_Federico_Huerta_spa.pdf>`
 ```
 
 ## Datos personales
@@ -27,7 +27,13 @@ Teléfono Celular
 : +593 991809274
 
 Correo electrónico
-: huerta.federico@gmail.com
+: [huerta.federico@gmail.com](mailto:huerta.federico@gmail.com)
+
+Github
+: [https://github.com/huerta-federico](https://github.com/huerta-federico)
+
+Sitio web
+: [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Resumen personal
 Apasionado y aspirante estudiante de TI que actualmente cursa educación formal en la universidad. Versátil  y autodidacta en entornos informáticos. Ingenioso y eficiente a la hora de resolver problemas o realizar investigaciones. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades.

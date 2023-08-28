@@ -1,7 +1,7 @@
 # CV auf Deutsch
 
 ```{note}
-PDF herunterladen {download}`klicken Sie hier <pdf/CV_Deutsch.pdf>`
+PDF herunterladen {download}`klicken Sie hier <pdf/CV_Federico_Huerta_deu.pdf>`
 ```
 
 ## Persönliche Daten
@@ -21,7 +21,13 @@ Mobil
 : +593 991809274
 
 E-Mail
-: huerta.federico@gmail.com
+: [huerta.federico@gmail.com](mailto:huerta.federico@gmail.com)
+
+Github
+: [https://github.com/huerta-federico](https://github.com/huerta-federico)
+
+Webseite
+: [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Fähigkeiten
 ### Software & Hardware

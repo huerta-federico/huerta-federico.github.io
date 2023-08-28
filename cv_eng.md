@@ -1,7 +1,7 @@
 # CV in english
 
 ```{note}
-PDF download {download}`click here </pdf/CV_English.pdf>`
+PDF download {download}`click here </pdf/CV_Federico_Huerta_eng.pdf>`
 ```
 
 ## Personal information
@@ -21,7 +21,13 @@ Mobile phone
 : +593 991809274
 
 e-mail
-: huerta.federico@gmail.com
+: [huerta.federico@gmail.com](mailto:huerta.federico@gmail.com)
+
+Github
+: [https://github.com/huerta-federico](https://github.com/huerta-federico)
+
+Website
+: [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Personal summary
 Passionate and aspiring IT student currently going through formal education in college. Versatile, experienced and self-taught in common computer environments. Resourceful and efficient when it comes to solving problems or doing research. Eager to learn the ins and outs of IT, expand my knowledge and put my abilities to use.
