@@ -3,6 +3,7 @@
 ```{note}
 PDF download :download: `pdf/CV_Deutsch.pdf`
 ```
+:download: `pdf/CV_Deutsch.pdf`
 
 ## Persönliche Daten
 Geburtsdatum
