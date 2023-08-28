@@ -30,6 +30,7 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
+  google_analytics_id: G-WS2WPYLBHM
 
 # Enabling definition lists
 parse:
