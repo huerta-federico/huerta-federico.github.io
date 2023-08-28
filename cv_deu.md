@@ -4,8 +4,6 @@
 PDF herunterladen {download}`klicken Sie hier <pdf/CV_Deutsch.pdf>`
 ```
 
-
-
 ## Persönliche Daten
 Geburtsdatum
 : 23. März. 1996
