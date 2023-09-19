@@ -24,7 +24,7 @@ Sitio web
 : [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Resumen personal
-Interesado en formar experiencia laboral en el campo empresarial de tecnologías de la información. Mis intereses principales se hallan en la administración de infraestructuras tecnológicas, gestión de plataformas digitales, y en el soporte especializado de hardware y bases de datos. Adicional a estos, también tengo interés en el desarrollo de soluciones o aplicaciones empresariales. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades aprendidas en mis estudios universitarios y autónomos.
+Interesado en formar experiencia laboral en el campo empresarial de tecnologías de la información. Mis intereses principales son la administración de infraestructuras tecnológicas, gestión de plataformas digitales, y el soporte especializado de hardware y bases de datos. También tengo interés en el desarrollo de soluciones o aplicaciones empresariales. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades aprendidas en mis estudios universitarios y autónomos.
 
 ## Habilidades
 ### Software & Hardware
