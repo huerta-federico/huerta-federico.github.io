@@ -11,12 +11,6 @@ Geburtsdatum
 Geburtsort
 : Guayaquil, Ecuador
 
-Staatsangehörigkeit
-: Ecuadorianisch
-
-Adresse
-: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
-
 Mobil
 : +593 991809274
 

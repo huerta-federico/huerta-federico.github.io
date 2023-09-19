@@ -11,18 +11,6 @@ Fecha de nacimiento
 Lugar de nacimiento
 : Guayaquil, Ecuador
 
-Nacionalidad
-: Ecuatoriano
-
-Cédula
-: 0923411383
-
-Dirección
-: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
-
-Teléfono fijo
-: +593 04545227
-
 Teléfono Celular
 : +593 991809274
 
@@ -36,7 +24,7 @@ Sitio web
 : [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Resumen personal
-Apasionado y aspirante estudiante de TI que actualmente cursa educación formal en la universidad. Versátil  y autodidacta en entornos informáticos. Ingenioso y eficiente a la hora de resolver problemas o realizar investigaciones. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades.
+Interesado en formar experiencia laboral en el campo empresarial de tecnologías de la información. Mis intereses principales se hallan en la administración de infraestructuras tecnológicas, gestión de plataformas digitales, y en el soporte especializado de hardware y bases de datos. Adicional a estos, también tengo interés en el desarrollo de soluciones o aplicaciones empresariales. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades aprendidas en mis estudios universitarios y autónomos.
 
 ## Habilidades
 ### Software & Hardware

@@ -11,12 +11,6 @@ Date of birth
 Place of birth
 : Guayaquil, Ecuador
 
-Citizenship
-: Ecuadorian
-
-Address
-: Cdla. Las Garzas Pasaje 2do NO Villa 6, Guayaquil, Ecuador
-
 Mobile phone
 : +593 991809274
 
@@ -30,7 +24,6 @@ Website
 : [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
 ## Personal summary
-Passionate and aspiring IT student currently going through formal education in college. Versatile, experienced and self-taught in common computer environments. Resourceful and efficient when it comes to solving problems or doing research. Eager to learn the ins and outs of IT, expand my knowledge and put my abilities to use.
 
 ## Skills
 ### Software & Hardware
