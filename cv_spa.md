@@ -23,19 +23,17 @@ Github
 Sitio web
 : [https://huerta-federico.github.io](https://huerta-federico.github.io)
 
-## Resumen personal
-Interesado en formar experiencia laboral en el campo empresarial de tecnologías de la información. Mis intereses principales son la administración de infraestructuras tecnológicas, gestión de plataformas digitales, y el soporte especializado de hardware y bases de datos. También tengo interés en el desarrollo de soluciones o aplicaciones empresariales. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades aprendidas en mis estudios universitarios y autónomos.
+## Objetivo
+Interesado en formar experiencia laboral o realizar pasantías en el campo empresarial de tecnologías de la información. Mis intereses principales son la administración de infraestructuras tecnológicas, gestión de plataformas digitales, y el soporte especializado de hardware/software y bases de datos. También tengo interés en el desarrollo de soluciones empresariales. Con ganas de aprender los ámbitos de TI, expandir mis conocimientos y poner en práctica mis habilidades aprendidas en mis estudios universitarios y autónomos.
 
 ## Habilidades
-### Software & Hardware
 - Ofimática general: Microsoft Office, LibreOffice, etc.
-- Gestión de datos y aplicación de estadísticas.
+- Gestión de datos y aplicación de técnicas  estadísticas.
 - Modelado y gestión de bases de datos SQL, noSQL, orientadas a objetos.
-- Diseño y creación de páginas web utilizando HTML, CSS, Javascript,  PHP, ORMs y frameworks como Django, Jupyter Book y SQLAlchemy.
+- Diseño y desarrollo de páginas web.
 - Programación estructurada y orientada a objetos en C, Java y Python.
-- Edición básica multimedia mediante Adobe Illustrator, Inkscape, editores de video, etc.
-- Gestión de redes, routers, puntos de acceso, cableado de redes locales, etc.
-- Familiarizado con sistemas Linux y Windows.
+- Uso de herramientas multimedia como edición gráfica, vídeo y audio.
+- Gestión de redes, routers, puntos de acceso, cableado de redes locales.
 
 ## Educación
 ````{card} Universidad Técnica Particular de Loja - UTPL
@@ -60,6 +58,10 @@ Estudiante de honor - 2da escolta del pabellón nacional
 2006 - 2014
 ````
 
+## Experiencia
+- Soporte técnico informal en equipos de cómputo: diagnósticos de fallas, mantenimiento, instalación de software y hardware, gestión de redes.
+- Trabajos eléctricos domésticos basados en el código eléctrico de EEUU.
+
 ## Certificaciones
 - Python Essentials 1 - Mayo 2023 - Cisco Networking Academy & OpenEDG Python Institute.
 - Goethe-Zertifikat B1 - 2015 - Goethe Institut
@@ -80,9 +82,6 @@ Inglés
 
 Alemán
 : Intermedio, hablado y escrito, con certificación B1
-
-Francés
-: Básico, hablado y escrito, con certificación A1
 
 ## Referencias
 Ing. Manuel Gómez Robles
