@@ -1,4 +1,4 @@
-# ¡Bievenido a mi portafolio!
+# ¡Bienvenido a mi portafolio!
 
 Hola, mi nombre es Federico Huerta y este es mi portafolio en línea hospedado a través del programa Github Pages y basado en el framework Jupyter Book.
 
