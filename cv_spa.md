@@ -63,6 +63,7 @@ Estudiante de honor - 2da escolta del pabellón nacional
 - Trabajos eléctricos domésticos basados en el código eléctrico de EEUU.
 
 ## Certificaciones
+- Certificate of Language Ability - English Writing C2 & English Speaking B2 - Septiembre 2023 - TrueNorth by Rosetta Stone
 - Python Essentials 1 - Mayo 2023 - Cisco Networking Academy & OpenEDG Python Institute.
 - Goethe-Zertifikat B1 - 2015 - Goethe Institut
 - Nivelación pruebas aptitudinales - 2014 - 56 horas - Academia de Ciencias Exactas APOL
@@ -78,7 +79,7 @@ Español
 : Natal
 
 Inglés
-: Avanzado, hablado y escrito
+: Inglés: Escrito avanzado (C2), hablado intermedio (B2), con certificaciones
 
 Alemán
 : Intermedio, hablado y escrito, con certificación B1
