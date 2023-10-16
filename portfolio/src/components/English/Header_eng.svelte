@@ -3,7 +3,7 @@
 
     // Top bar navigation links
     export let tabs = [
-        { name: "Spanish", link: "/" },
+        { name: "Spanish/Español", link: "/" },
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
         //{ name: "Extra", link: "#extra" },
