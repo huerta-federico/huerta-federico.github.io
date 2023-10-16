@@ -32,7 +32,7 @@
         </p>
         <p>
             <b class="pr-2">LinkedIn (non existant)</b>
-            <a href=" " target="_blank" class="text-violet-400"
+            <a href="#" target="_blank" class="text-violet-400"
                 >No LinkedIn<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
