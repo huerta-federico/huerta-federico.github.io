@@ -4,17 +4,17 @@
     // Projects Array
     let steps = [
         {
-            name: "Project 1",
+            name: "Project 1 placeholder",
             icon: "fa-brands fa-linux",
             description: "project description 1",
         },
         {
-            name: "Project 2",
+            name: "Project 2 placeholder",
             icon: "fa-brands fa-linux",
             description: "project description 2",
         },
         {
-            name: "Project 3",
+            name: "Project 3 placeholder",
             icon: "fa-brands fa-linux",
             description: "project description 3",
         },
@@ -23,19 +23,19 @@
     // Benefits Array
     let benefits = [
         {
-            name: "Benefit 1",
+            name: "Benefit 1 placeholder",
             icon: "fa-brands fa-linux",
-            description: "the best DPS in PC NA",
+            description: "Driven towards improvement and learning.",
         },
         {
-            name: "Benefit 2",
+            name: "Benefit 2 placeholder",
             icon: "fa-brands fa-linux",
-            description: "an excelent cookie giver",
+            description: "An excelent cookie giver.",
         },
         {
-            name: "Benefit 3",
+            name: "Benefit 3 placeholder",
             icon: "fa-brands fa-linux",
-            description: "a great passive listener",
+            description: "A great and unambiguous communicator.",
         },
     ];
 </script>
@@ -50,19 +50,23 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <!-- Section title -->
-            <h1>WORK IN PROGRESS - FILLED WITH PLACEHOLDER TEXT</h1>
+            <h1 class="font-semibold text-5xl sm:text-6xl md:text-7xl">
+                WORK IN PROGRESS!
+            </h1>
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Federico</span>
-                Huerta!!!
+                Huerta
+                <br>
                 <br />IT Engineering
                 <span class="poppins text-violet-400">Student</span>
             </h2>
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite stuff</span> includes
-                things, cookies, more stuff, bits and pieces, and you guessed it,
-                EVEN MOAR STUFF!
+                <b>Example text:</b> My
+                <span class="text-violet-400"> favorite things</span> include learning
+                new tech, solving problems, open source software, gaming, and reading
+                books!
             </p>
 
             <!-- Get in Touch button-->
@@ -80,7 +84,7 @@
         <div class="relative shadow-2xl grid place-items-center">
             <img
                 src={"images/profile.png"}
-                alt="Zetane Engine"
+                alt="Profile"
                 class="object-cover z-[2] max-h-[70vh]"
             />
         </div>
@@ -89,13 +93,19 @@
     <!-- Project section -->
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-large sm:text-xl md:textxl">A few of my stuff</h6>
+            <h6 class="text-large sm:text-xl md:textxl">
+                A few of my projects
+            </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my stuff?
+                Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
+            <p>
+                Placeholder nature video used under Creative Commons Attribution
+                license (reuse allowed)
+            </p>
         </div>
         <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://youtu.be/mLwlGsRhNIU?si=ww5CWeq4ucM9EZhx"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
@@ -107,28 +117,34 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Project 1 is just a placeholder for the description of
-                    stuff, things and <strong class="text-violet-400"
-                        >specially the super important stuff</strong
-                    > with some added detail at the end.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. <strong class="text-violet-400">
+                        Ultricies mi quis hendrerit dolor magna eget est.</strong
+                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
+                    purus faucibus.
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Project 2 is just a placeholder for the description of
-                    stuff, things and <strong class="text-violet-400"
-                        >specially the super important stuff</strong
-                    > with some added detail at the end.
-                </p></Step
-            >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. <strong class="text-violet-400">
+                        Ultricies mi quis hendrerit dolor magna eget est.</strong
+                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
+                    purus faucibus.
+                </p>
+            </Step>
             <Step step={steps[2]}>
                 <p>
-                    Project 3 is just a placeholder for the description of
-                    stuff, things and <strong class="text-violet-400"
-                        >specially the super important stuff</strong
-                    > with some added detail at the end.
-                </p></Step
-            >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. <strong class="text-violet-400">
+                        Ultricies mi quis hendrerit dolor magna eget est.</strong
+                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
+                    purus faucibus.
+                </p>
+            </Step>
         </div>
     </section>
 
@@ -179,9 +195,9 @@
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
                         <th />
-                        <th class="whitespace-nowrap p-2 px-4">One dude</th>
-                        <th class="whitespace-nowrap p-2 px-4">Another dude</th>
-                        <th class="whitespace-nowrap p-2 px-4">The Last dude</th
+                        <th class="whitespace-nowrap p-2 px-4">Person A</th>
+                        <th class="whitespace-nowrap p-2 px-4">Person B</th>
+                        <th class="whitespace-nowrap p-2 px-4">Person C</th
                         >
                         <th
                             class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
@@ -223,7 +239,7 @@
                     <tr class="border-t border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
+                            >Programming Ability</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
@@ -238,6 +254,6 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">So why not do stuff with me?</p>
+        <p class="mx-auto">So why not invest in me?</p>
     </section>
 </main>
