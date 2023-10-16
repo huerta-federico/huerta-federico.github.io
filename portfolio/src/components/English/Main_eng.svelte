@@ -1,5 +1,5 @@
 <script>
-    import Step from "./Step.svelte";
+    import Step from "./Step_eng.svelte";
 
     // Projects Array
     let steps = [
@@ -56,7 +56,7 @@
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Federico</span>
                 Huerta
-                <br>
+                <br />
                 <br />IT Engineering
                 <span class="poppins text-violet-400">Student</span>
             </h2>
@@ -72,7 +72,7 @@
             <!-- Get in Touch button-->
             <a
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-                href="#"
+                href="mailto:huerta.federico@gmail.com"
                 target="_blank"
             >
                 <div
@@ -170,7 +170,7 @@
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
                     <p
-                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
+                        class="poppins-mono text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
                     >
                         0{index + 1}
                     </p>
@@ -197,8 +197,7 @@
                         <th />
                         <th class="whitespace-nowrap p-2 px-4">Person A</th>
                         <th class="whitespace-nowrap p-2 px-4">Person B</th>
-                        <th class="whitespace-nowrap p-2 px-4">Person C</th
-                        >
+                        <th class="whitespace-nowrap p-2 px-4">Person C</th>
                         <th
                             class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
                             >Me</th

@@ -1,8 +1,9 @@
 <script>
     export let y;
-    
+
     // Top bar navigation links
     export let tabs = [
+        { name: "Spanish", link: "/" },
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
         //{ name: "Extra", link: "#extra" },
@@ -30,7 +31,7 @@
         {/each}
         <a
             class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            href="#"
+            href="mailto:huerta.federico@gmail.com"
             target="_blank"
         >
             <div
