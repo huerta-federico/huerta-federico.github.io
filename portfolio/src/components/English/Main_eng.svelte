@@ -6,7 +6,7 @@
         {
             name: "Project 1 placeholder",
             icon: "fa-brands fa-linux",
-            description: "project description 1",
+            href: "/English",
         },
         {
             name: "Project 2 placeholder",

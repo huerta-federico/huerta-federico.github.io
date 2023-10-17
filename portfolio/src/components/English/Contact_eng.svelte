@@ -15,12 +15,13 @@
             <h1 class="font-semibold text-5xl sm:text-6xl md:text-7xl">
                 Get in touch!
             </h1>
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Federico</span>
-                Huerta
-                <br />
-                <br />IT Engineering
-                <span class="poppins text-violet-400">Student</span>
+            <br>
+            <h2 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                <p><b class="pr-2">Email&rarr;</b><a href="mailto:huerta.federico@gmail.com"> huerta.federico@gmail.com</a></p>
+            </h2>
+            <br>
+            <h2 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                <b class="pr-2">Telegram&rarr;</b>@huerta_federico
             </h2>
 
             <!-- Section subtitle -->
