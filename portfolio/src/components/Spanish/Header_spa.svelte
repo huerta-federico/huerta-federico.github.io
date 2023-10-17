@@ -3,9 +3,10 @@
 
     // Top bar navigation links
     export let tabs = [
-        { name: "English/Inglés", link: "/English" },
+        { name: "Inicio", link: "/Spanish" },
         { name: "Proyectos", link: "#projects" },
         { name: "Acerca de mí", link: "#about" },
+        { name: "English/Inglés", link: "/English" },
         //{ name: "Extra", link: "#extra" },
     ];
 </script>
@@ -20,19 +21,14 @@
         <b class="font-bold poppins">Federico</b> Huerta
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
-        {#each tabs as tab, index}
-            <a
-                href={tab.link}
-                class="duration-200 hover:text-violet-400"
-                target={index == 2 ? "_blank" : ""}
-            >
+        {#each tabs as tab}
+            <a href={tab.link} class="duration-200 hover:text-violet-400">
                 <p>{tab.name}</p>
             </a>
         {/each}
         <a
             class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             href="mailto:huerta.federico@gmail.com"
-            target="_blank"
         >
             <div
                 class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
