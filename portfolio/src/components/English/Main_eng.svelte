@@ -4,9 +4,9 @@
     // Projects Array
     let steps = [
         {
-            name: "Project 1 placeholder",
-            icon: "fa-brands fa-linux",
-            href: "/English",
+            name: "Online Portfolio",
+            icon: "fa-brands fa-node",
+            href: "https://github.com/huerta-federico/huerta-federico.github.io",
         },
         {
             name: "Project 2 placeholder",
@@ -23,14 +23,16 @@
     // Benefits Array
     let benefits = [
         {
-            name: "Benefit 1 placeholder",
-            icon: "fa-brands fa-linux",
-            description: "Driven towards improvement and learning.",
+            name: "driven to learn and improve.",
+            icon: "fa-solid fa-code",
+            description:
+                "New tech fascinates me and I'm always eager to learn new frameworks, coding tools and systems. Improving on what I already know is one of my goals too.",
         },
         {
-            name: "Benefit 2 placeholder",
-            icon: "fa-brands fa-linux",
-            description: "An excelent cookie giver.",
+            name: "an independent problem solver",
+            icon: "fa-regular fa-lightbulb",
+            description:
+                "When facing a problem or obstacle, I always strive first to solve it on my own means by researching, testing, looking up the documentation and coming up with an optimal solution.",
         },
         {
             name: "Benefit 3 placeholder",
@@ -63,17 +65,15 @@
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                <b>Example text:</b> My
-                <span class="text-violet-400"> favorite things</span> include learning
-                new tech, solving problems, open source software, gaming, and reading
-                books!
+                My <span class="text-violet-400"> favorite things</span> include
+                learning new tech, solving problems, open source software, gaming,
+                and reading books!
             </p>
 
             <!-- Get in Touch button-->
             <a
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-                href="mailto:huerta.federico@gmail.com"
-                target="_blank"
+                href="#footer"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -100,8 +100,8 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
             <p>
-                Placeholder nature video used under Creative Commons Attribution
-                license (reuse allowed)
+                Placeholder nature video licensed under Creative Commons
+                Attribution license.
             </p>
         </div>
         <a
@@ -117,12 +117,18 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. <strong class="text-violet-400">
-                        Ultricies mi quis hendrerit dolor magna eget est.</strong
-                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
-                    purus faucibus.
+                    My personal online portfolio made with the <strong
+                        class="text-violet-400"
+                    >
+                        SvelteKit and Tailwind CSS frameworks.</strong
+                    >
+                    It follows a responsive design for multiple display screens,
+                    a simple but elegant Javascript animated background. Its hosted
+                    on the
+                    <strong class="text-violet-400">GitHub Pages</strong>
+                    program and its deployed with an automated build and post process
+                    using
+                    <strong class="text-violet-400">Node.js</strong>.
                 </p>
             </Step>
             <Step step={steps[1]}>
@@ -174,11 +180,17 @@
                     >
                         0{index + 1}
                     </p>
+
                     <div class="flex flex-col gap-6 sm:gap-8">
                         <h3 class="text-2xl sm:text-3xl md:text-5xl">
                             {benefit.name}
                         </h3>
                         <p>{benefit.description}</p>
+                        <div
+                            class="place-items-center text-5xl md:text-6xl mx-auto duration-200"
+                        >
+                            <i class={benefit.icon} />
+                        </div>
                     </div>
                 </div>
             {/each}

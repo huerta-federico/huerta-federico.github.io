@@ -14,6 +14,7 @@
 <div
     class="container relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen"
 >
+    <!-- Go up button -->
     <div
         class={"fixed bottom-0 right-0 w-90%  duration-200 flex p-10 z-[10] " +
             (y > 0
@@ -27,6 +28,7 @@
             <i class="fa-solid fa-arrow-up" />
         </button>
     </div>
+    <!-- Actual content -->
     <Header {y} />
     <slot />
     <Footer />
