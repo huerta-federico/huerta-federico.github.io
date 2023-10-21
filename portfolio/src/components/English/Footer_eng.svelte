@@ -7,7 +7,10 @@
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
         <p>
-            <b class="pr-2">Email</b><a href="mailto:huerta.federico@gmail.com">
+            <b class="pr-2">Email</b><a
+                href="mailto:huerta.federico@gmail.com"
+                class="text-violet-400"
+            >
                 huerta.federico@gmail.com</a
             >
         </p>
@@ -27,7 +30,9 @@
             >
         </p>
         <p>
-            <b class="pr-2">Telegram</b> @huerta_federico
+            <b class="pr-2">Telegram</b><span class="text-violet-400">
+                @huerta_federico</span
+            >
         </p>
     </div>
 </footer>

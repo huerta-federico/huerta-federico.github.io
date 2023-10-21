@@ -1,29 +1,33 @@
 <script>
-    import Step from "./Step_eng.svelte";
+    import Step from "../Step.svelte";
 
     // Projects Array
-    let steps = [
+    let goto_text = "Go to ";
+    let projects = [
         {
             name: "Online Portfolio",
             icon: "fa-brands fa-node",
             href: "https://github.com/huerta-federico/huerta-federico.github.io",
+            goto: goto_text,
         },
         {
-            name: "Project 2 placeholder",
-            icon: "fa-brands fa-linux",
-            description: "project description 2",
+            name: "Web page with database connection",
+            icon: "fa-solid fa-database",
+            href: "https://github.com/huerta-federico/6c2b_dpw_actividad_experimental_1",
+            goto: goto_text,
         },
         {
             name: "Project 3 placeholder",
             icon: "fa-brands fa-linux",
-            description: "project description 3",
+            href: "#",
+            goto: goto_text,
         },
     ];
 
     // Benefits Array
     let benefits = [
         {
-            name: "driven to learn and improve.",
+            name: "driven to learn and improve",
             icon: "fa-solid fa-code",
             description:
                 "New tech fascinates me and I'm always eager to learn new frameworks, coding tools and systems. Improving on what I already know is one of my goals too.",
@@ -35,9 +39,9 @@
                 "When facing a problem or obstacle, I always strive first to solve it on my own means by researching, testing, looking up the documentation and coming up with an optimal solution.",
         },
         {
-            name: "Benefit 3 placeholder",
-            icon: "fa-brands fa-linux",
-            description: "A great and unambiguous communicator.",
+            name: "great at communication",
+            icon: "fa-solid fa-comments",
+            description: "A good communication will provide better results for the team and organization, which is why I value precision, transparency and respect when communicating with others.",
         },
     ];
 </script>
@@ -65,7 +69,7 @@
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite things</span> include
+                My <span class="text-violet-400">favorite things</span> include
                 learning new tech, solving problems, open source software, gaming,
                 and reading books!
             </p>
@@ -115,7 +119,7 @@
 
         <!-- Project containers -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
+            <Step step={projects[0]}>
                 <p>
                     My personal online portfolio made with the <strong
                         class="text-violet-400"
@@ -131,17 +135,18 @@
                     <strong class="text-violet-400">Node.js</strong>.
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={projects[1]}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. <strong class="text-violet-400">
-                        Ultricies mi quis hendrerit dolor magna eget est.</strong
-                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
-                    purus faucibus.
+                    A simple website made for a college assignment that connects
+                    to a <strong class="text-violet-400">MySQL database</strong>
+                    powered by <strong class="text-violet-400">MariaDB</strong>.
+                    It allows the user to execute CRUD operations on the
+                    database through a web form. The logic and database
+                    connection was coded using
+                    <strong class="text-violet-400">PHP</strong>.
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={projects[2]}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -265,6 +270,6 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">So why not invest in me?</p>
+        <p class="mx-auto" id="test">So why not invest in me?</p>
     </section>
 </main>

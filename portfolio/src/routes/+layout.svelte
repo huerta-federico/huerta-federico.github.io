@@ -1,7 +1,5 @@
 <script>
-    import Footer from "../../components/English/Footer_eng.svelte";
-    import Header from "../../components/English/Header_eng.svelte";
-    import "../../app.css";
+    import "../app.css";
     let y;
     let innerWidth = 0;
     let innerHeight = 0;
@@ -29,9 +27,7 @@
         </button>
     </div>
     <!-- Actual content -->
-    <Header {y} />
     <slot />
-    <Footer />
-</div>
+    </div>
 
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />

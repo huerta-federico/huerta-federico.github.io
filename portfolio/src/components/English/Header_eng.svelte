@@ -2,7 +2,7 @@
     export let y;
 
     // Navigation links array
-    export let tabs = [
+    let tabs = [
         { name: "Home", link: "/English" },
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
