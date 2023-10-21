@@ -61,9 +61,9 @@
             </h1>
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Federico</span>
-                Huerta
+                Huerta,
                 <br />
-                <br />IT Engineering
+                <br />an IT Engineering
                 <span class="poppins text-violet-400">Student</span>
             </h2>
 

@@ -1,8 +1,8 @@
 <script>
-    import Step from "./Step_spa.svelte";
+    import Step from "../Step.svelte";
 
     // Projects Array
-    let steps = [
+    let projects = [
         {
             name: "Project 1 placeholder",
             icon: "fa-brands fa-linux",
@@ -115,7 +115,7 @@
 
         <!-- Project containers -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
+            <Step step={projects[0]}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -125,7 +125,7 @@
                     purus faucibus.
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={projects[1]}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -135,7 +135,7 @@
                     purus faucibus.
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={projects[2]}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
