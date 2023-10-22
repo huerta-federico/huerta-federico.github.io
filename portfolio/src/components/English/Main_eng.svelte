@@ -41,7 +41,8 @@
         {
             name: "great at communication",
             icon: "fa-solid fa-comments",
-            description: "A good communication will provide better results for the team and organization, which is why I value precision, transparency and respect when communicating with others.",
+            description:
+                "A good communication will provide better results for the team and organization, which is why I value precision, transparency and respect when communicating with others.",
         },
     ];
 </script>
@@ -69,9 +70,9 @@
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite things</span> include
-                learning new tech, solving problems, open source software, gaming,
-                and reading books!
+                My <span class="text-violet-400">favorite things</span> include learning
+                new tech, solving problems, open source software, gaming, and reading
+                books!
             </p>
 
             <!-- Get in Touch button-->
@@ -164,6 +165,7 @@
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
+        <br />
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
         >
@@ -191,11 +193,11 @@
                             {benefit.name}
                         </h3>
                         <p>{benefit.description}</p>
-                        <div
-                            class="place-items-center text-5xl md:text-6xl mx-auto duration-200"
-                        >
-                            <i class={benefit.icon} />
-                        </div>
+                    </div>
+                    <div
+                        class="pt-2 place-items-center text-5xl md:text-6xl mx-auto"
+                    >
+                        <i class={benefit.icon} />
                     </div>
                 </div>
             {/each}
@@ -270,6 +272,8 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto" id="test">So why not invest in me?</p>
+        <h6 class={" text-1xl sm:text-2xl text-center poppins "}>
+            So why not invest in me?
+        </h6>
     </section>
 </main>

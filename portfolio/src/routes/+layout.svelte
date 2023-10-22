@@ -1,8 +1,6 @@
 <script>
     import "../app.css";
-    let y;
-    let innerWidth = 0;
-    let innerHeight = 0;
+    let y = 0;
 
     function goTop() {
         document.body.scrollIntoView();
@@ -28,6 +26,6 @@
     </div>
     <!-- Actual content -->
     <slot />
-    </div>
+</div>
 
-<svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
+<svelte:window bind:scrollY={y} />

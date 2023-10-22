@@ -6,7 +6,7 @@
         { name: "Home", link: "/English" },
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
-        { name: "Spanish/Español", link: "/Spanish" },
+        { name: "Spanish/Español", link: "/" },
     ];
 </script>
 

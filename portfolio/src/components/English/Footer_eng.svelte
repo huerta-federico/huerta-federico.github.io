@@ -30,8 +30,12 @@
             >
         </p>
         <p>
-            <b class="pr-2">Telegram</b><span class="text-violet-400">
-                @huerta_federico</span
+            <b class="pr-2">Telegram</b><a
+                href="https://t.me/huerta_federico"
+                class="text-violet-400"
+                target="_blank"
+            >
+                @huerta_federico</a
             >
         </p>
     </div>
