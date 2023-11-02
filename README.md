@@ -2,7 +2,7 @@
 Portafolio personal no terminado.
 
 Basado en:
-[https://www.youtube.com/watch?v=-2UjwQzxvBQ] (SvelteKit & TailwindCSS Tutorial – Build & Deploy a Web Portfolio)
+[SvelteKit & TailwindCSS Tutorial – Build & Deploy a Web Portfolio] (https://www.youtube.com/watch?v=-2UjwQzxvBQ)
 por @Smoljames 
 
 URL Pública:
