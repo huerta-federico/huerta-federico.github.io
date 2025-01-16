@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^0.0.17",
-		"@sveltejs/kit": "^0.0.30",
+		"@sveltejs/kit": "^1.20.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.16",
 		"gh-pages": "^6.0.0",
