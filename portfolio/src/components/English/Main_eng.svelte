@@ -17,9 +17,9 @@
             goto: goto_text,
         },
         {
-            name: "Project 3 placeholder",
-            icon: "fa-brands fa-linux",
-            href: "#",
+            name: "Ficticious Travel Agency website",
+            icon: "fa-brands fa",
+            href: "https://fxhuerta.wixsite.com/eco-travel",
             goto: goto_text,
         },
     ];
@@ -149,12 +149,13 @@
             </Step>
             <Step step={projects[2]}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. <strong class="text-violet-400">
-                        Ultricies mi quis hendrerit dolor magna eget est.</strong
-                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
-                    purus faucibus.
+                    A slighty more complex website made for a ficticious travel
+                    agency focused on sustainability. It was build on the <strong
+                        class="text-violet-400"
+                    >
+                        WIX</strong
+                    > website builder which provides powerful tools like CMS and payment methods to create and
+                    publish a versatile website without little to no manual coding.
                 </p>
             </Step>
         </div>
