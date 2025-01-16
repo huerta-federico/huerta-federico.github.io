@@ -17,9 +17,9 @@
             goto: goto_text,
         },
         {
-            name: "Project 3 placeholder",
-            icon: "fa-brands fa-linux",
-            href: "#",
+            name: "Sitio web para una agencia de viajes ficticia",
+            icon: "fa-solid fa-earth-americas",
+            href: "https://fxhuerta.wixsite.com/eco-travel",
             goto: goto_text,
         },
     ];
@@ -149,12 +149,9 @@
             </Step>
             <Step step={projects[2]}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. <strong class="text-violet-400">
-                        Ultricies mi quis hendrerit dolor magna eget est.</strong
-                    > Pretium viverra suspendisse potenti nullam ac tortor vitae
-                    purus faucibus.
+                    Un sitio web ligeramente más complejo creado para una agencia de viajes ficticia enfocada en la sostenibilidad. Fue construido en <strong class="text-violet-400">
+                        WIX</strong
+                    >, una plataforma para crear sitios web que proporciona herramientas poderosas como CMS y métodos de pago para crear y publicar un sitio web versátil sin la necesidad de código.
                 </p>
             </Step>
         </div>

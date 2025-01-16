@@ -18,7 +18,7 @@
         },
         {
             name: "Ficticious Travel Agency website",
-            icon: "fa-brands fa",
+            icon: "fa-solid fa-earth-americas",
             href: "https://fxhuerta.wixsite.com/eco-travel",
             goto: goto_text,
         },
@@ -150,11 +150,11 @@
             <Step step={projects[2]}>
                 <p>
                     A slighty more complex website made for a ficticious travel
-                    agency focused on sustainability. It was build on the <strong
+                    agency focused on sustainability. It was build on <strong
                         class="text-violet-400"
                     >
                         WIX</strong
-                    > website builder which provides powerful tools like CMS and payment methods to create and
+                    >, a website builder which provides powerful tools like CMS and payment methods to create and
                     publish a versatile website without little to no manual coding.
                 </p>
             </Step>
