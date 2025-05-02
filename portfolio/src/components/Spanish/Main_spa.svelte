@@ -2,24 +2,24 @@
     import Step from "../Step.svelte";
 
     // Projects Array
-    let goto_text = "Go to ";
+    let goto_text = "Ver más ";
     let projects = [
         {
-            name: "Online Portfolio",
-            icon: "fa-brands fa-node",
+            name: "Portafolio personal en línea",
+            icon: "fa-solid fa-briefcase",
             href: "https://github.com/huerta-federico/huerta-federico.github.io",
             goto: goto_text,
         },
         {
-            name: "Web page with database connection",
-            icon: "fa-solid fa-database",
-            href: "https://github.com/huerta-federico/6c2b_dpw_actividad_experimental_1",
+            name: "Despliegue completo y listo para producción de Nextcloud en AWS EKS",
+            icon: "fa-solid fa-cloud",
+            href: "https://github.com/huerta-federico/utpl-tic-public",
             goto: goto_text,
         },
         {
-            name: "Sitio web para una agencia de viajes ficticia",
-            icon: "fa-solid fa-earth-americas",
-            href: "https://fxhuerta.wixsite.com/eco-travel",
+            name: "Base de datos relacional en SQLite",
+            icon: "fa-solid fa-database",
+            href: "https://github.com/huerta-federico/cs50_sql_project",
             goto: goto_text,
         },
     ];
@@ -27,22 +27,22 @@
     // Benefits Array
     let benefits = [
         {
-            name: "driven to learn and improve",
+            name: "impulsado por el aprendizaje y la mejora continua",
             icon: "fa-solid fa-code",
             description:
-                "New tech fascinates me and I'm always eager to learn new frameworks, coding tools and systems. Improving on what I already know is one of my goals too.",
+                "Siempre estoy motivado a ampliar mis conocimientos, explorando nuevos frameworks, herramientas y sistemas para perfeccionar mi experiencia. Mejorar constantemente lo que ya sé es una parte esencial de mi mentalidad de crecimiento.",
         },
         {
-            name: "an independent problem solver",
+            name: "resolutivo y orientado a soluciones",
             icon: "fa-regular fa-lightbulb",
             description:
-                "When facing a problem or obstacle, I always strive first to solve it on my own means by researching, testing, looking up the documentation and coming up with an optimal solution.",
+                "Me destaco en el análisis de desafíos técnicos complejos, desarrollando soluciones innovadoras y optimizando el rendimiento de sistemas con precisión y eficiencia.",
         },
         {
-            name: "great at communication",
+            name: "excelente en habilidades de comunicación",
             icon: "fa-solid fa-comments",
             description:
-                "A good communication will provide better results for the team and organization, which is why I value precision, transparency and respect when communicating with others.",
+                "La comunicación efectiva genera mejores resultados para los equipos y las organizaciones, por eso priorizo la precisión, la transparencia y el respeto en cada interacción.",
         },
     ];
 </script>
@@ -57,22 +57,18 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <!-- Section title -->
-            <h1 class="font-semibold text-5xl sm:text-6xl md:text-7xl">
-                ¡En construcción!
-            </h1>
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Federico</span>
-                Huerta,
-                <br />
-                <br />an IT Engineering
-                <span class="poppins text-violet-400">Student</span>
+                ¡Hola! Soy <span class="poppins text-violet-400">Federico Huerta</span>,
+                <br />un estudiante de
+                <span class="poppins text-violet-400">Ingeniería de TI</span>
             </h2>
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite things</span> include learning
-                new tech, solving problems, open source software, gaming, and reading
-                books!
+                <span class="text-violet-400">Disfruto explorando</span> nuevas tecnologías,
+                resolviendo problemas complejos y participando en proyectos de código
+                abierto. Cuando no estoy inmerso en el mundo tech, probablemente
+                me encuentres disfrutando de los videojuegos o de un buen libro.
             </p>
 
             <!-- Get in Touch button-->
@@ -83,7 +79,7 @@
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
+                <h4 class="relative z-9">Contáctame &rarr;</h4>
             </a>
         </div>
         <!--
@@ -101,59 +97,55 @@
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:textxl">
-                A few of my projects
+                Algunos de mis proyectos
             </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
-            </h3>
-            <p>
-                Placeholder nature video licensed under Creative Commons
-                Attribution license.
-            </p>
         </div>
-        <a
-            href="https://youtu.be/mLwlGsRhNIU?si=ww5CWeq4ucM9EZhx"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a>
 
         <!-- Project containers -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={projects[0]}>
                 <p>
-                    My personal online portfolio made with the <strong
-                        class="text-violet-400"
-                    >
-                        SvelteKit and Tailwind CSS frameworks.</strong
-                    >
-                    It follows a responsive design for multiple display screens,
-                    a simple but elegant Javascript animated background. Its hosted
-                    on the
+                    Desarrollado con <strong class="text-violet-400"
+                        >SvelteKit y Tailwind CSS</strong
+                    >, adaptado para ser completamente responsivo en múltiples
+                    tamaños de pantalla. Incluye un fondo animado con
+                    JavaScript, simple pero elegante. Está alojado en
                     <strong class="text-violet-400">GitHub Pages</strong>
-                    program and its deployed with an automated build and post process
-                    using
-                    <strong class="text-violet-400">Node.js</strong>.
+                    y desplegado automáticamente con un proceso de build y post-procesamiento
+                    automatizado mediante
+                    <strong class="text-violet-400">Node.js</strong>
                 </p>
             </Step>
             <Step step={projects[1]}>
                 <p>
-                    A simple website made for a college assignment that connects
-                    to a <strong class="text-violet-400">MySQL database</strong>
-                    powered by <strong class="text-violet-400">MariaDB</strong>.
-                    It allows the user to execute CRUD operations on the
-                    database through a web form. The logic and database
-                    connection was coded using
-                    <strong class="text-violet-400">PHP</strong>.
+                    Un despliegue de <strong class="text-violet-400"
+                        >Nextcloud</strong
+                    >
+                    totalmente containerizado, con escalabilidad horizontal,
+                    alta disponibilidad e integraciones nativas en la nube.
+                    Incluye Collabora Online, Talk (HPB), Redis Cluster, MariaDB
+                    Galera y notificaciones push — todo orquestado con
+                    <strong class="text-violet-400">Kubernetes</strong> y reforzado
+                    con Ingress seguro, escalado automático y almacenamiento distribuido
+                    persistente.
                 </p>
             </Step>
             <Step step={projects[2]}>
                 <p>
-                    Un sitio web ligeramente más complejo creado para una agencia de viajes ficticia enfocada en la sostenibilidad. Fue construido en <strong class="text-violet-400">
-                        WIX</strong
-                    >, una plataforma para crear sitios web que proporciona herramientas poderosas como CMS y métodos de pago para crear y publicar un sitio web versátil sin la necesidad de código.
+                    Base de datos en <strong class="text-violet-400"
+                        >SQLite</strong
+                    >
+                    diseñada e implementada para gestionar las operaciones
+                    centrales de un negocio de filtración de agua, incluyendo
+                    gestión de clientes, inventario, pedidos y mantenimientos.
+                    El proyecto incluye
+                    <strong class="text-violet-400"
+                        >esquemas normalizados, integridad de datos mediante
+                        restricciones, triggers automatizados y vistas
+                        optimizadas para consultas</strong
+                    >, demostrando sólidos conocimientos en diseño de bases de
+                    datos y habilidades prácticas para la resolución de
+                    problemas.
                 </p>
             </Step>
         </div>
@@ -168,13 +160,13 @@
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
         >
-            <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
+            <h6 class="text-lg sm:text-xl md:text-2xl">¿Quieres conocer más?</h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                Un poco <span class="poppins text-violet-400">acerca</span> de mí.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            I am . . .
+            Yo soy . . .
         </p>
 
         <!-- Benefits containers -->
@@ -204,7 +196,7 @@
 
         <!-- Table of goodies -->
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            El paquete <span class="text-violet-400">completo</span>
         </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -213,12 +205,12 @@
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
                         <th />
-                        <th class="whitespace-nowrap p-2 px-4">Person A</th>
-                        <th class="whitespace-nowrap p-2 px-4">Person B</th>
-                        <th class="whitespace-nowrap p-2 px-4">Person C</th>
+                        <th class="whitespace-nowrap p-2 px-4">Candidato A</th>
+                        <th class="whitespace-nowrap p-2 px-4">Candidato B</th>
+                        <th class="whitespace-nowrap p-2 px-4">Candidato C</th>
                         <th
                             class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
+                            >Yo</th
                         >
                     </tr>
                 </thead>
@@ -226,7 +218,7 @@
                     <tr class="border-b border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
+                            >Dedicación</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -236,7 +228,7 @@
                     <tr class="border-b border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
+                            >Pensamiento crítico</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -246,7 +238,7 @@
                     <tr>
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
+                            >Habilidades interpersonales</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -256,7 +248,7 @@
                     <tr class="border-t border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Programming Ability</td
+                            >Habilidad de programación</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
@@ -269,10 +261,10 @@
 
         <!-- Table hint for overflow -->
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
+            <p>Continua para ver más &rarr;</p>
         </div>
         <h6 class={" text-1xl sm:text-2xl text-center poppins "}>
-            So why not invest in me?
+            ¿Por qué no invertir en mí?
         </h6>
     </section>
 </main>

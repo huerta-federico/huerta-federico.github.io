@@ -5,21 +5,21 @@
     let goto_text = "Go to ";
     let projects = [
         {
-            name: "Online Portfolio",
-            icon: "fa-brands fa-node",
+            name: "Personal Online Portfolio",
+            icon: "fa-solid fa-briefcase",
             href: "https://github.com/huerta-federico/huerta-federico.github.io",
             goto: goto_text,
         },
         {
-            name: "Web page with database connection",
-            icon: "fa-solid fa-database",
-            href: "https://github.com/huerta-federico/6c2b_dpw_actividad_experimental_1",
+            name: "Nextcloud Scalable Deployment with Kubernetes and AWS EKS",
+            icon: "fa-solid fa-cloud",
+            href: "https://github.com/huerta-federico/utpl-tic-public",
             goto: goto_text,
         },
         {
-            name: "Ficticious Travel Agency website",
-            icon: "fa-solid fa-earth-americas",
-            href: "https://fxhuerta.wixsite.com/eco-travel",
+            name: "Smart SQLite Database for Water Filtration Operations",
+            icon: "fa-solid fa-database",
+            href: "https://github.com/huerta-federico/cs50_sql_project",
             goto: goto_text,
         },
     ];
@@ -30,19 +30,19 @@
             name: "driven to learn and improve",
             icon: "fa-solid fa-code",
             description:
-                "New tech fascinates me and I'm always eager to learn new frameworks, coding tools and systems. Improving on what I already know is one of my goals too.",
+                "I'm constantly driven to expand my knowledge, exploring new frameworks, tools, and systems to refine my expertise. Continuously improving on what I already know is a core part of my growth mindset.",
         },
         {
-            name: "an independent problem solver",
+            name: "a resourceful problem solver",
             icon: "fa-regular fa-lightbulb",
             description:
-                "When facing a problem or obstacle, I always strive first to solve it on my own means by researching, testing, looking up the documentation and coming up with an optimal solution.",
+                "I excel at analyzing complex technical challenges, developing innovative solutions, and optimizing system performance with precision and efficiency.",
         },
         {
             name: "great at communication",
             icon: "fa-solid fa-comments",
             description:
-                "A good communication will provide better results for the team and organization, which is why I value precision, transparency and respect when communicating with others.",
+                "Effective communication drives better results for teams and organizations, which is why I prioritize precision, transparency, and respect in every interaction.",
         },
     ];
 </script>
@@ -57,22 +57,21 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <!-- Section title -->
-            <h1 class="font-semibold text-5xl sm:text-6xl md:text-7xl">
-                WORK IN PROGRESS!
-            </h1>
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Federico</span>
-                Huerta,
+                Hi! I'm <span class="poppins text-violet-400"
+                    >Federico Huerta</span
+                >,
                 <br />
-                <br />an IT Engineering
-                <span class="poppins text-violet-400">Student</span>
+                an <span class="poppins text-violet-400">IT Engineering</span>
+                <br />Student
             </h2>
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite things</span> include learning
-                new tech, solving problems, open source software, gaming, and reading
-                books!
+                I <span class="text-violet-400">thrive</span> on exploring new technology,
+                tackling complex problems, and engaging with open-source projects.
+                When I'm not diving into tech, you'll find me immersed in gaming
+                or lost in a good book.
             </p>
 
             <!-- Get in Touch button-->
@@ -103,61 +102,51 @@
             <h6 class="text-large sm:text-xl md:textxl">
                 A few of my projects
             </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
-            </h3>
-            <p>
-                Placeholder nature video licensed under Creative Commons
-                Attribution license.
-            </p>
         </div>
-        <a
-            href="https://youtu.be/mLwlGsRhNIU?si=ww5CWeq4ucM9EZhx"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a>
 
         <!-- Project containers -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={projects[0]}>
                 <p>
-                    My personal online portfolio made with the <strong
+                    A personal online portfolio built using <strong
                         class="text-violet-400"
-                    >
-                        SvelteKit and Tailwind CSS frameworks.</strong
-                    >
-                    It follows a responsive design for multiple display screens,
-                    a simple but elegant Javascript animated background. Its hosted
-                    on the
+                        >SvelteKit and Tailwind CSS</strong
+                    >, designed for responsiveness across multiple screen sizes.
+                    Features a simple yet elegant JavaScript-animated
+                    background. Hosted on
                     <strong class="text-violet-400">GitHub Pages</strong>
-                    program and its deployed with an automated build and post process
-                    using
-                    <strong class="text-violet-400">Node.js</strong>.
+                    and deployed via an automated build and post-process powered
+                    by <strong class="text-violet-400">Node.js</strong>
                 </p>
             </Step>
             <Step step={projects[1]}>
                 <p>
-                    A simple website made for a college assignment that connects
-                    to a <strong class="text-violet-400">MySQL database</strong>
-                    powered by <strong class="text-violet-400">MariaDB</strong>.
-                    It allows the user to execute CRUD operations on the
-                    database through a web form. The logic and database
-                    connection was coded using
-                    <strong class="text-violet-400">PHP</strong>.
+                    A production-ready, fully containerized deployment of <strong
+                        class="text-violet-400">Nextcloud</strong
+                    >
+                    on <strong class="text-violet-400">AWS EKS</strong>,
+                    featuring horizontal scalability, high availability, and
+                    cloud-native integrations. Includes Collabora Online, Talk
+                    (HPB), Redis Cluster, MariaDB Galera, and push notifications
+                    — all orchestrated with
+                    <strong class="text-violet-400">Kubernetes</strong> and hardened
+                    with secure Ingress, autoscaling, and persistent distributed
+                    storage.
                 </p>
             </Step>
             <Step step={projects[2]}>
                 <p>
-                    A slighty more complex website made for a ficticious travel
-                    agency focused on sustainability. It was build on <strong
-                        class="text-violet-400"
+                    Designed and implemented a relational database in <strong
+                        class="text-violet-400">SQLite</strong
                     >
-                        WIX</strong
-                    >, a website builder which provides powerful tools like CMS and payment methods to create and
-                    publish a versatile website without little to no manual coding.
+                    to support core operations of a water filtration business, including
+                    customer management, inventory, order processing, and maintenance
+                    scheduling. The project features
+                    <strong class="text-violet-400"
+                        >normalized schemas, data integrity via constraints,
+                        automated triggers, and performance-optimized views</strong
+                    > demonstrating strong database design and practical problem-solving
+                    skills.
                 </p>
             </Step>
         </div>
