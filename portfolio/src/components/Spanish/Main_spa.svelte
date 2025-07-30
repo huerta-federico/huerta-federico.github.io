@@ -59,8 +59,8 @@
             <!-- Section title -->
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 ¡Hola! Soy <span class="poppins text-violet-400">Federico Huerta</span>,
-                <br />un estudiante de
-                <span class="poppins text-violet-400">Ingeniería de TI</span>
+                <br />un 
+                <span class="poppins text-violet-400">Ingeniero de TI</span>
             </h2>
 
             <!-- Section subtitle -->

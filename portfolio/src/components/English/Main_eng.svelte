@@ -62,8 +62,8 @@
                     >Federico Huerta</span
                 >,
                 <br />
-                an <span class="poppins text-violet-400">IT Engineering</span>
-                <br />Student
+                an <span class="poppins text-violet-400">IT Engineer</span>
+                <br />
             </h2>
 
             <!-- Section subtitle -->
