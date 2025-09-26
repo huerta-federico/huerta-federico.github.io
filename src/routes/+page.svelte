@@ -2,12 +2,12 @@
     import Main from "../components/Spanish/Main_spa.svelte";
     import Footer from "../components/Spanish/Footer_spa.svelte";
     import Header from "../components/Spanish/Header_spa.svelte";
-    let y;
+    export let y = 0;
     let innerWidth = 0;
-    let innerHeight = 0;
+    export let innerHeight = 0;
 </script>
 
-<Header {y} {innerHeight} />
+<Header {y} />
 <Main />
 <Footer />
 

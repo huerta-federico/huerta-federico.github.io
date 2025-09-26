@@ -22,6 +22,18 @@
             href: "https://youtu.be/h16s3onXESU",
             goto: goto_text,
         },
+        {
+            name: "Web app with Flask, SQLite and Bootstrap",
+            icon: "fa-brands fa-python",
+            href: "https://youtu.be/_duh_q1e7HE",
+            goto: goto_text,
+        },
+        {
+            name: "Mobile app with Flutter and SQLite for Android",
+            icon: "fa-brands fa-android",
+            href: "https://github.com/huerta-federico/insanity_tracker",
+            goto: goto_text,
+        },
     ];
 
     // Benefits Array
@@ -95,17 +107,18 @@
         </div>
     -->
     </section>
-
     <!-- Project section -->
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-large sm:text-xl md:textxl">
+            <h6 class="text-large sm:text-xl md:text-xl">
                 A few of my projects
             </h6>
         </div>
 
-        <!-- Project containers -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <!-- SOLUTION 1: Using CSS Grid with col-span and place-self -->
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-12 max-w-6xl mx-auto w-full"
+        >
             <Step step={projects[0]}>
                 <p>
                     A personal online portfolio built using <strong
@@ -149,9 +162,49 @@
                     skills.
                 </p>
             </Step>
+            <Step step={projects[3]}>
+                <p>
+                    Full-stack web application with <strong
+                        class="text-violet-400"
+                        >Flask, Bootstrap & SQLite</strong
+                    >
+                    for managing maintenance of reverse osmosis water filtration
+                    systems, including client registration, addresses, maintenance
+                    records and inventory. This project includes
+                    <strong class="text-violet-400"
+                        >a normalized database, extensive data validation, error
+                        handling, responsive design, multi-layered architecture,
+                        and object-oriented programming</strong
+                    >, and highlights the application of design, development and
+                    documentation standards.
+                </p>
+            </Step>
+            <!-- Last project spans both columns and centers itself -->
+            <div class="lg:col-span-2 lg:place-self-center lg:w-1/2">
+                <Step step={projects[4]}>
+                    <p>
+                        Mobile application with <strong class="text-violet-400"
+                            >Flutter for Android</strong
+                        >
+                        that helps me manage the 'Insanity Workout' exercise program.
+                        It shows me the specific routine for each day and allows
+                        me to mark it as completed or skipped. It displays the program
+                        calendar and tracks statistics like the number of completed
+                        exercises, completed cycles, etc. It includes a form for
+                        fitness tests, and generates a chart based on the results.
+                        It works through
+                        <strong class="text-violet-400"
+                            >a local database. It's responsive and animated. It
+                            has dynamic functionalities that update
+                            automatically. It allows exporting the database as a
+                            backup, and importing it later to restore the data.</strong
+                        > The application is a prototype and I'm planning to add
+                        more functionalities and polish the behavior.
+                    </p>
+                </Step>
+            </div>
         </div>
     </section>
-
     <!-- About section -->
     <section
         id="about"
@@ -221,40 +274,56 @@
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Dedication</td
                         >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-green-500"></i></td
+                        >
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Critical Thought</td
                         >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-green-500"></i></td
+                        >
                     </tr>
                     <tr>
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Interpersonal Skills</td
                         >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-green-500"></i></td
+                        >
                     </tr>
                     <tr class="border-t border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Programming Ability</td
                         >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td
+                        >
+                        <td><i class="fa-solid fa-check text-green-500"></i></td
+                        >
                     </tr>
                 </tbody>
             </table>
