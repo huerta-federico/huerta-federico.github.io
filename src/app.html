@@ -1,103 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<!-- Particle JS script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
-integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- Font awesome import -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Google Fonts Robot & Poppins import -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-rel="stylesheet" />
-<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
- %sveltekit.head%
+	<meta charset="utf-8" />
+	<!-- Particle JS script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+		integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Font awesome import -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts Robot & Poppins import -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
 </head>
+
 <body data-sveltekit-preload-data="hover" data-sveltekit-preload-code="eager" class="bg-slate-950 text-white relative">
-<div style="display: contents" class="relative z-[1]">
- %sveltekit.body%
-</div>
+	<div style="display: contents" class="relative z-[1]">
+		%sveltekit.body%
+	</div>
 
-<!-- Optimized background animation with mobile detection -->
-<div class="absolute min-h-screen top-0 left-0 h-full w-full z-[-1] opacity-50">
-    <!-- Desktop: Full particle animation -->
-    <div class="absolute inset-0 hidden lg:block" id="particles-js-desktop" />
-    
-    <!-- Mobile: Simplified CSS gradient animation (much lighter) -->
-    <div class="absolute inset-0 lg:hidden bg-gradient-to-br from-violet-950/20 via-slate-950 to-blue-950/20 animate-pulse" 
-         style="animation: mobileGradient 8s ease-in-out infinite;">
-    </div>
-</div>
+	<!-- Optimized background animation with mobile detection -->
+	<div class="absolute min-h-screen top-0 left-0 h-full w-full z-[-1] opacity-50">
+		<!-- Desktop: Full particle animation -->
+		<div class="absolute inset-0 hidden lg:block" id="particles-js-desktop" />
 
-<style>
-/* Custom mobile gradient animation - very lightweight */
-@keyframes mobileGradient {
-    0%, 100% { 
-        background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(15, 23, 42, 1) 50%, rgba(30, 58, 138, 0.1) 100%); 
-    }
-    50% { 
-        background: linear-gradient(225deg, rgba(30, 58, 138, 0.15) 0%, rgba(15, 23, 42, 1) 50%, rgba(124, 58, 237, 0.15) 100%); 
-    }
-}
-</style>
+		<!-- Mobile: Simplified CSS gradient animation (much lighter) -->
+		<div class="absolute inset-0 lg:hidden bg-gradient-to-br from-violet-950/20 via-slate-950 to-blue-950/20 animate-pulse"
+			style="animation: mobileGradient 8s ease-in-out infinite;">
+		</div>
+	</div>
 
-<script>
-// Mobile detection function
-function isMobile() {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
-           || window.innerWidth < 1024;
-}
+	<style>
+		/* Custom mobile gradient animation - very lightweight */
+		@keyframes mobileGradient {
 
-// Performance detection
-function isLowPerformanceDevice() {
-    return navigator.hardwareConcurrency <= 2 || 
-           /Android.*Chrome\/[0-6]/.test(navigator.userAgent);
-}
+			0%,
+			100% {
+				background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(15, 23, 42, 1) 50%, rgba(30, 58, 138, 0.1) 100%);
+			}
 
-// Only load particles on desktop/high-performance devices
-if (!isMobile() && !isLowPerformanceDevice()) {
-    particlesJS.load(
-        "particles-js-desktop",
-        "../assets/particles.json",
-        function () {
-            console.log("Callback - particles.js config loaded for desktop");
-        }
-    );
-} else {
-    console.log("Particles disabled on mobile/low-performance device for better performance");
-}
+			50% {
+				background: linear-gradient(225deg, rgba(30, 58, 138, 0.15) 0%, rgba(15, 23, 42, 1) 50%, rgba(124, 58, 237, 0.15) 100%);
+			}
+		}
+	</style>
 
-// Option: Reduce particle count on smaller screens if you still want some animation
-// Alternatively, load a lighter particle config for mobile
-/*
-if (window.innerWidth < 1024 && window.innerWidth >= 768) {
-    // Tablet - use reduced particles
-    particlesJS("particles-js-desktop", {
-        "particles": {
-            "number": { "value": 30, "density": { "enable": true, "value_area": 800 } },
-            "color": { "value": "#8b5cf6" },
-            "shape": { "type": "circle" },
-            "opacity": { "value": 0.3, "random": false },
-            "size": { "value": 2, "random": true },
-            "line_linked": { "enable": false },
-            "move": { "enable": true, "speed": 1, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
-        },
-        "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false }, "onclick": { "enable": false }, "resize": true } },
-        "retina_detect": false
-    });
-}
-*/
-</script>
+	<script>
+		// Mobile detection function
+		function isMobile() {
+			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+				|| window.innerWidth < 1024;
+		}
 
-<!-- Alternative: Pure CSS animated background (even lighter) -->
-<!--
+		// Performance detection
+		function isLowPerformanceDevice() {
+			return navigator.hardwareConcurrency <= 2 ||
+				/Android.*Chrome\/[0-6]/.test(navigator.userAgent);
+		}
+
+		// Only load particles on desktop/high-performance devices
+		if (!isMobile() && !isLowPerformanceDevice()) {
+			particlesJS.load(
+				"particles-js-desktop",
+				"../assets/particles.json",
+				function () {
+					console.log("Callback - particles.js config loaded for desktop");
+				}
+			);
+		} else {
+			console.log("Particles disabled on mobile/low-performance device for better performance");
+		}
+
+		// Option: Reduce particle count on smaller screens if you still want some animation
+		// Alternatively, load a lighter particle config for mobile
+		/*
+		if (window.innerWidth < 1024 && window.innerWidth >= 768) {
+			// Tablet - use reduced particles
+			particlesJS("particles-js-desktop", {
+				"particles": {
+					"number": { "value": 30, "density": { "enable": true, "value_area": 800 } },
+					"color": { "value": "#8b5cf6" },
+					"shape": { "type": "circle" },
+					"opacity": { "value": 0.3, "random": false },
+					"size": { "value": 2, "random": true },
+					"line_linked": { "enable": false },
+					"move": { "enable": true, "speed": 1, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
+				},
+				"interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false }, "onclick": { "enable": false }, "resize": true } },
+				"retina_detect": false
+			});
+		}
+		*/
+	</script>
+
+	<!-- Alternative: Pure CSS animated background (even lighter) -->
+	<!--
 <style>
 .css-stars {
     background: 
@@ -121,4 +126,5 @@ Replace the particle div with:
 <div class="absolute inset-0 lg:hidden css-stars"></div>
 -->
 </body>
+
 </html>
