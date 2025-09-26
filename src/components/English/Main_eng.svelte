@@ -205,7 +205,7 @@
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
-                        <th />
+                        <th></th>
                         <th class="whitespace-nowrap p-2 px-4">Person A</th>
                         <th class="whitespace-nowrap p-2 px-4">Person B</th>
                         <th class="whitespace-nowrap p-2 px-4">Person C</th>
