@@ -7,6 +7,14 @@
     export let innerHeight = 0;
 </script>
 
+<svelte:head>
+    <title>Federico Huerta - Ingeniero en TI | Portfolio Personal</title>
+    <meta
+        name="description"
+        content="Portfolio personal de Federico Huerta, Ingeniero en TI especializado en desarrollo web y sistemas."
+    />
+</svelte:head>
+
 <Header {y} />
 <Main />
 <Footer />

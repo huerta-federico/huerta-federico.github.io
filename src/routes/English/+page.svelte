@@ -7,6 +7,14 @@
     let innerHeight = 0;
 </script>
 
+<svelte:head>
+    <title>Federico Huerta - IT Engineer | Personal Portfolio</title>
+    <meta
+        name="description"
+        content="Personal portfolio of Federico Huerta, IT Engineer specialized in web development and systems."
+    />
+</svelte:head>
+
 <Header {y} />
 <Main />
 <Footer />
