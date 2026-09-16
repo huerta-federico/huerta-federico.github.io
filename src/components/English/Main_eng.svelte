@@ -80,10 +80,7 @@
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                I <span class="text-violet-400">thrive</span> on exploring new technology,
-                tackling complex problems, and engaging with open-source projects.
-                When I'm not diving into tech, you'll find me immersed in gaming
-                or lost in a good book.
+                <span class="text-violet-400">Specialized</span> in cloud infrastructure, with experience in software QA and production deployments on Azure within the Fintech sector. I'm particularly interested in AWS, microservices, and OSS, and I enjoy researching how to apply new tools to real-world problems.
             </p>
 
             <!-- Get in Touch button-->

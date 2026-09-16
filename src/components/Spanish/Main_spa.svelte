@@ -74,15 +74,12 @@
                     >Federico Huerta</span
                 >,
                 <br />un
-                <span class="poppins text-violet-400">Ingeniero de TI</span>
+                <span class="poppins text-violet-400">Ingeniero en TI</span>
             </h2>
 
             <!-- Section subtitle -->
             <p class="text-base sm:text-lg md:text-xl">
-                <span class="text-violet-400">Disfruto explorando</span> nuevas tecnologías,
-                resolviendo problemas complejos y participando en proyectos de código
-                abierto. Cuando no estoy inmerso en el mundo tech, probablemente
-                me encuentres disfrutando de los videojuegos o de un buen libro.
+                <span class="text-violet-400">Especializado</span> en infraestructura cloud, con experiencia en QA de software y despliegues de producción en Azure dentro del sector Fintech. Me interesa especialmente AWS, microservicios y OSS, y disfruto investigar cómo aplicar nuevas herramientas a problemas reales.
             </p>
 
             <!-- Get in Touch button-->
