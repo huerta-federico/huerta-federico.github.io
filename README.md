@@ -1,28 +1,28 @@
 # Federico Huerta - Personal Portfolio
 
-A modern, responsive personal portfolio website built with SvelteKit and Tailwind CSS, showcasing my projects, skills, and experience as an IT Engineer. The site features bilingual support (English/Spanish), animated backgrounds, and optimized mobile performance.
+A modern, responsive personal portfolio website built with SvelteKit and Tailwind CSS, showcasing my projects, cloud/QA experience, and technical stack as a **Cloud & QA Engineer**. The site features trilingual support (**German, English, and Spanish**), interactive desktop particle animations, and optimized mobile performance.
 
-I built this project following this tutorial:
+Inspired by and adapted from:
 [SvelteKit & TailwindCSS Tutorial – Build & Deploy a Web Portfolio](https://www.youtube.com/watch?v=-2UjwQzxvBQ)
-by @Smoljames. Thank you!
+by @Smoljames.
 
 ## Live Demo
 
-**English Version**: [https://huerta-federico.github.io/English](https://huerta-federico.github.io/English)  
-**Spanish Version**: [https://huerta-federico.github.io/](https://huerta-federico.github.io/)
+- **German Version**: [https://huerta-federico.github.io/German](https://huerta-federico.github.io/German)
+- **English Version**: [https://huerta-federico.github.io/English](https://huerta-federico.github.io/English)
+- **Spanish Version**: [https://huerta-federico.github.io/](https://huerta-federico.github.io/)
 
 ## Features
 
-- **Bilingual Support**: Complete English and Spanish versions with seamless navigation between languages
-- **Responsive Design**: Optimized for all screen sizes from mobile to desktop
-- **Animated Background**: Interactive particle system on desktop but disabled on mobile for optimal performance
-- **Modern UI/UX**: Clean, professional design with smooth animations and hover effects
-- **Performance Optimized**: Mobile-first approach with performance detection and adaptive content loading
-- **Accessibility**: Semantic HTML structure with proper ARIA labels and keyboard navigation
+- **Trilingual Support (DE / EN / ES)**: Complete German, English, and Spanish versions with a compact pill switcher for seamless navigation between languages
+- **Responsive Design**: Tailored layouts from mobile screens to wide desktop monitors
+- **Adaptive Animated Background**: Interactive particle system on desktop, disabled on mobile for smooth performance
+- **Modern UI/UX**: Clean dark-slate aesthetic with violet accents, smooth transitions, and hover micro-interactions
+- **Accessibility & SEO**: Semantic heading hierarchy, ARIA labels, keyboard navigation, and Open Graph metadata
 
 ## Tech Stack
 
-### Frontend Framework\
+### Frontend Framework
 
 - **SvelteKit** - Full-stack web application framework
 - **Tailwind CSS** - Utility-first CSS framework for styling
@@ -36,9 +36,9 @@ by @Smoljames. Thank you!
 
 ### Development & Deployment
 
-- **Node.js** - Runtime environment for build tools
+- **Node.js** - Runtime environment for build and post-processing scripts
 - **GitHub Pages** - Static site hosting
-- **GitHub Actions** - Automated CI/CD pipeline
+- **GitHub Actions** - Automated CI/CD deployment pipeline
 - **Vite** - Build tool and development server
 
 ## Project Structure
@@ -51,134 +51,29 @@ by @Smoljames. Thank you!
 │   │   │   ├── Footer_eng.svelte
 │   │   │   ├── Header_eng.svelte
 │   │   │   └── Main_eng.svelte    # English main content
+│   │   ├── German/
+│   │   │   ├── Footer_de.svelte
+│   │   │   ├── Header_de.svelte
+│   │   │   └── Main_de.svelte     # German main content
 │   │   ├── Spanish/
 │   │   │   ├── Footer_spa.svelte
 │   │   │   ├── Header_spa.svelte
 │   │   │   └── Main_spa.svelte    # Spanish main content
-│   │   └── Step.svelte            # Project showcase component
+│   │   └── Step.svelte            # Project showcase card component
 │   ├── lib/                       # Assets, icons
 │   ├── routes/
 │   │   ├── +layout.js
 │   │   ├── +layout.svelte         # Main layout wrapper
 │   │   ├── +page.svelte           # Spanish home page
-│   │   └── English/
-│   │       └── +page.svelte       # English home page
+│   │   ├── English/
+│   │   │   └── +page.svelte       # English home page
+│   │   └── German/
+│   │       └── +page.svelte       # German home page
 │   ├── app.html                   # HTML template with particles.js
-│   ├── app.css                    # Imported CSS and custom styles
+│   └── app.css                    # Imported CSS and custom styles
 ├── static/
 │   ├── assets/
-│   │   └── particles.json             # Particle animation configuration
+│   │   └── particles.json         # Particle animation configuration
 │   └── ...
 ├── package.json
 └── ...
-```
-
-## Design Features
-
-### Responsive Navigation
-
-- **Desktop**: Horizontal navigation with smooth hover effects
-- **Mobile**: Hamburger menu with full-screen overlay and animated icon transitions
-
-### Project Showcase
-
-- **Grid Layout**: 2-column responsive grid
-- **Interactive Cards**: Hover effects and external links to GitHub repositories and demos
-- **Detailed Descriptions**: Technical stack highlights and project accomplishments
-
-### Performance Optimizations
-
-- **Device Detection**: Automatic detection of mobile devices and low-performance hardware
-- **Adaptive Animations**: Full particle system on desktop, disabled on mobile
-- **Optimized Assets**: Compressed images and efficient resource loading
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js
-- npm
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/huerta-federico/huerta-federico.github.io.git
-   cd huerta-federico.github.io
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-
-   ```bash
-   npm run dev -- --open
-   ```
-
-### Available Scripts
-
-- `npm run dev` - Start development server with hot reload
-- `npm run build` - Build production version
-- `npm run preview` - Preview production build locally
-- `npm run check` - Run SvelteKit type checking
-- `npm run lint` - Run ESLint code linting
-
-## Deployment
-
-The site is automatically deployed using GitHub Actions:
-
-1. **Push to main branch** triggers the deployment workflow
-2. **Build process** compiles SvelteKit app for static hosting
-3. **GitHub Pages** serves the built files from the `gh-pages` branch
-4. **Custom domain** (optional) can be configured in repository settings
-
-### Deployment Configuration
-
-- **Static Adapter**: Uses `@sveltejs/adapter-static` for GitHub Pages compatibility
-- **Base Path**: Configured for GitHub Pages subdirectory hosting
-- **Asset Optimization**: Automatic minification and optimization during build
-
-## Key Sections
-
-### Hero Section
-
-- Professional introduction with animated text
-- Call-to-action button with hover effects
-- Clean, minimal design focusing on content
-
-### Projects Gallery
-
-- 5 featured projects with detailed descriptions
-- External links to GitHub repositories and live demos
-- Technical stack highlighting with color-coded emphasis
-
-### About Section
-
-- Personal skills and strengths showcase
-- Interactive comparison table
-- Professional benefits and value proposition
-
-### Contact Footer
-
-- Direct contact information (email, GitHub, Telegram)
-- Consistent styling with hover effects
-- External link indicators
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contributing
-
-While this is a personal portfolio, suggestions and feedback are welcome! Feel free to:
-
-1. Open an issue for bugs or suggestions
-2. Fork the repository for your own portfolio inspiration
-3. Submit pull requests for improvements
-
-**Built with ❤️ using SvelteKit and Tailwind CSS**
