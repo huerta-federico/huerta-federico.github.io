@@ -30,7 +30,7 @@
 <header
     class={"sticky z-20 top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
-            ? " py-3.5 bg-slate-950/95 backdrop-blur-md border-violet-950"
+            ? " py-3.5 bg-slate-950 border-violet-950"
             : " py-5 bg-transparent border-transparent")}
 >
     <!-- Brand / Home Link -->
